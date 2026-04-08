@@ -133,6 +133,7 @@
     <Folder Include="dbo\User Defined Types\" />
     <Folder Include="Security\" />
     <Folder Include="SalesLT\Sequences\" />
+    <Folder Include="SalesLT\XMLSchemaCollections\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\BuildVersion.sql">
@@ -257,5 +258,14 @@
     <Build Include="Security\SalesLT.sql" />
     <Build Include="Security\Student_2.sql" />
     <Build Include="SalesLT\Sequences\SalesOrderNumber.sql" />
+    <Build Include="SalesLT\Tables\ProductAttribute.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="SalesLT\Tables\CustomerHistory.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="SalesLT\XMLSchemaCollections\ProductAttributeSchema.sql" />
   </ItemGroup>
 </Project>
