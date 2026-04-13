@@ -267,5 +267,6 @@
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
     <Build Include="SalesLT\XMLSchemaCollections\ProductAttributeSchema.sql" />
+    <Build Include="lab-6.sql" />
   </ItemGroup>
 </Project>
