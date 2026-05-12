@@ -74,6 +74,7 @@ DECLARE @Summary TABLE (
     AdjustedPrice DECIMAL(18,2)
 )
 
+GO
 
 -- Msg 2772, Level 16, State 1, Procedure ufn_CalcAdjustedPrices, Line 67
 -- Cannot access temporary tables from within a function.

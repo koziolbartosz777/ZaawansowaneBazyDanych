@@ -9,7 +9,7 @@
 -- Zadanie 1
 -- =============================================
 
-CREATE TYPE dbo.B2_surname FROM NVARCHAR(50) NOT NULL
+	 dbo.B2_surname FROM NVARCHAR(50) NOT NULL
 GO
 
 ALTER TABLE SalesLT.Customer ALTER COLUMN LastName dbo.B2_surname

@@ -271,5 +271,6 @@
     <Build Include="lab-7.sql" />
     <Build Include="lab-8.sql" />
     <Build Include="lab-9.sql" />
+    <Build Include="lab-10.sql" />
   </ItemGroup>
 </Project>
